@@ -1,6 +1,6 @@
 # Wedding_Invitation
 
-# AUTHOR
+## AUTHOR
     This project was completed by "RASH"
 
 ## About
@@ -14,7 +14,7 @@
         -html and 
         -css for styling.
 
-## PREREQUISITES
+### PREREQUISITES
     You should already have a stable browser to use.
 
 ## CLONE PROJECT
