@@ -44,7 +44,8 @@ header {
 .section2 img {
   width: 60vw;
   border-radius: 5px;
-  filter: grayscale(75%);
+
+  /* filter: grayscale(75%); */
 }
 
 .btn1 {
@@ -68,7 +69,9 @@ header {
   background: url("../images/photo3.png");
   background-size: cover;
   color: #fff;
-  filter: grayscale(25%);
+
+  /* filter: grayscale(25%); */
+
   height: 100vh;
   background-position: center;
   text-align: center;
@@ -106,7 +109,8 @@ header {
 .section4 img {
   width: 60vw;
   border-radius: 5px;
-  filter: grayscale(70%);
+
+  /* filter: grayscale(70%); */
 }
 
 .section4 .when-where {
