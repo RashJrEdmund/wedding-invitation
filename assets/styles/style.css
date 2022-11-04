@@ -5,7 +5,6 @@ body {
   text-align: center;
 }
 
-
 header {
   background: url("../images/photo1.png");
   background-size: cover;
@@ -14,14 +13,15 @@ header {
   background-position: center;
   text-align: center;
   padding-top: 30vh;
-  word-spacing: 1
+  word-spacing: 1;
 }
 
 .head-text1 {
   font-size: 4em;
 }
 
-.head-text2, .head-text3 {
+.head-text2,
+.head-text3 {
   font-size: 1.8rem;
 }
 
@@ -96,7 +96,7 @@ header {
   height: auto;
   width: auto;
   font-size: 2.5rem;
-  color:#757575;
+  color: #757575;
   margin: 4rem auto;
   text-transform: uppercase;
 }
@@ -140,7 +140,7 @@ header {
   font-size: 1.3rem;
   background-color: #f44336;
   color: #fff;
-  margin: 2rem 0 5rem 0;
+  margin: 2rem 0 5rem;
 }
 
 .btn2:hover {
@@ -148,8 +148,9 @@ header {
   color: #000;
 }
 
-footer, footer a {
-  padding: 2.1rem 0 2.1rem 0;
+footer,
+footer a {
+  padding: 2.1rem 0 2.1rem;
   background-color: #000;
   color: #fff;
 }
@@ -160,13 +161,14 @@ footer, footer a {
 }
 
 .nav {
-  background-color: rgba(255, 255, 255, 0.671);
+  background-color: #fff;
+  opacity: 50%;
   color: #000;
   justify-content: center;
   font-size: large;
   display: flex;
   height: auto;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0 1rem;
   gap: 20vw;
   position: fixed;
   width: 100%;
@@ -191,5 +193,5 @@ footer, footer a {
   background-color: #000;
   color: #fff;
   width: 15%;
-  height: 2rem
+  height: 2rem;
 }
