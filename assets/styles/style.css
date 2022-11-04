@@ -60,7 +60,7 @@ header {
 }
 
 .btn1:hover {
-  background: lightgray;
+  background: #ccc;
   color: #000;
 }
 
@@ -113,10 +113,79 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10vw;
+  gap: 10rem;
 }
 
 .hope-you {
   background-color: #ffdddd;
   height: auto;
+  margin-bottom: 0;
+}
+
+.hope-you-text1 {
+  padding-top: 2.8rem;
+  font-size: 3rem;
+}
+
+.hope-you .btn2 {
+  padding: 1rem;
+  border: none;
+  border-radius: 3px;
+  height: auto;
+  width: 11rem;
+  font-size: 1.3rem;
+  background-color: #f44336;
+  color: #fff;
+  margin: 2rem 0 5rem 0;
+}
+
+.btn2:hover {
+  background: #ccc;
+  color: #000;
+}
+
+.powered-by, .powered-by a {
+  padding: 2.1rem 0 2.1rem 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.second-to-last {
+  height: 1.5rem;
+  background-color: #fff;
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.671);
+  color: #000;
+  justify-content: center;
+  font-size: large;
+  display: flex;
+  height: auto;
+  padding: 1rem 0 1rem 0;
+  gap: 20vw;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav:hover {
+  background-color: #fff;
+}
+
+.nav-content:hover {
+  background-color: #757575;
+  width: 15%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.rsvp:hover {
+  background-color: #000;
+  color: #fff;
+  width: 15%;
+  height: 2rem
 }
