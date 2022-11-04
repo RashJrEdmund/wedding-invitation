@@ -140,7 +140,7 @@ header {
   font-size: 1.3rem;
   background-color: #f44336;
   color: #fff;
-  margin: 2rem 0 5rem;
+  margin: 2rem 0;
 }
 
 .btn2:hover {
@@ -150,7 +150,7 @@ header {
 
 footer,
 footer a {
-  padding: 2.1rem 0 2.1rem;
+  padding: 2.1rem 0;
   background-color: #000;
   color: #fff;
 }
@@ -162,13 +162,13 @@ footer a {
 
 .nav {
   background-color: #fff;
-  opacity: 50%;
+  opacity: 0.5;
   color: #000;
   justify-content: center;
   font-size: large;
   display: flex;
   height: auto;
-  padding: 1rem 0 1rem;
+  padding: 1rem 0;
   gap: 20vw;
   position: fixed;
   width: 100%;
