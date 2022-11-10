@@ -1,19 +1,20 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: #f7e7e7;
-  text-align: center;
+  background-color: #f1e0e0;
 }
 
-header {
+#home {
   background: url("../images/photo1.png");
   background-size: cover;
   color: #fff;
   height: 100vh;
+  width: 100%;
   background-position: center;
   text-align: center;
   padding-top: 30vh;
   word-spacing: 1;
+  filter: grayscale(40%);
 }
 
 .head-text1 {
@@ -25,7 +26,7 @@ header {
   font-size: 1.8rem;
 }
 
-#jane-john {
+.section-title {
   text-align: center;
   font-size: 2.5rem;
   color: #757575;
@@ -33,31 +34,34 @@ header {
 }
 
 .section2 {
-  width: 60vw;
-  margin-left: 20vw;
+  width: 80vw;
+  margin: auto;
   font-style: oblique;
   color: #000;
   font-weight: lighter;
   padding: auto 100px;
+  min-width: 20rem;
+  max-width: 70rem;
 }
 
-.section2 img {
-  width: 60vw;
+.section2 img,
+.section4 img {
+  width: 100%;
   border-radius: 5px;
 
-  /* filter: grayscale(75%); */
+  filter: grayscale(70%);
 }
 
 .btn1 {
-  padding: 1rem;
-  border: none;
-  border-radius: 3px;
-  height: auto;
-  width: auto;
+  padding: 1.2rem;
+  border-radius: 4px;
+  height: fit-content;
+  width: fit-content;
+
   font-size: 1.3rem;
   background-color: #000;
   color: #fff;
-  margin: 4rem auto;
+  margin: 4rem auto 5rem;
 }
 
 .btn1:hover {
@@ -69,9 +73,7 @@ header {
   background: url("../images/photo3.png");
   background-size: cover;
   color: #fff;
-
-  /* filter: grayscale(25%); */
-
+  filter: grayscale(20%);
   height: 100vh;
   background-position: center;
   text-align: center;
@@ -102,37 +104,48 @@ header {
 }
 
 .section4 {
-  max-width: 60vw;
-  margin-left: 20vw;
-}
-
-.section4 img {
-  width: 60vw;
-  border-radius: 5px;
-
-  /* filter: grayscale(70%); */
+  width: 80vw;
+  margin: auto;
+  min-width: 20rem;
+  max-width: 70rem;
 }
 
 .section4 .when-where {
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10rem;
+  gap: 2rem 10rem;
+  margin: 2.5rem auto;
+}
+
+.when-where header {
+  font-size: 32px;
+  font-weight: 10;
 }
 
 .hope-you {
-  background-color: #f7cdcd;
+  background-color: #f7d6d6;
   height: auto;
   margin-bottom: 0;
+  text-align: center;
+  padding-top: 3rem;
 }
 
 .hope-you-text1 {
-  padding-top: 2.8rem;
-  font-size: 3rem;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+.hope-you-text2 {
+  word-spacing: 10px;
+  letter-spacing: 4px;
 }
 
 .hope-you .btn2 {
-  padding: 1rem;
+  padding: 1.3rem;
   border: none;
   border-radius: 3px;
   height: auto;
@@ -140,48 +153,77 @@ header {
   font-size: 1.3rem;
   background-color: #f44336;
   color: #fff;
-  margin: 2rem 0;
+  margin: 1.3rem 0 6rem;
+  opacity: 0.64;
 }
 
 .btn2:hover {
   background: #ccc;
   color: #000;
+  opacity: 1;
 }
 
-footer,
-footer a {
+footer {
   padding: 2.1rem 0;
   background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+
+footer a {
   color: #fff;
 }
 
 .second-to-last {
-  height: 1.5rem;
+  height: 1.1rem;
   background-color: #fff;
+  margin: 0;
 }
-
+ 
 .nav {
   background-color: #fff;
-  opacity: 0.5;
+  opacity: 0.8;
   color: #000;
   justify-content: center;
   font-size: large;
   display: flex;
-  height: auto;
   padding: 1rem 0;
-  gap: 20vw;
   position: fixed;
   width: 100%;
+  height: 3rem;
   bottom: 0;
+  z-index: 1;
 }
 
-.nav:hover {
+.nav-content {
+  width: 25%;
+  height: 100%;
+}
+
+.nav button {
+  width: 100%;
   background-color: #fff;
 }
 
-.nav-content:hover {
+.nav-btn1:hover {
   background-color: #757575;
-  width: 15%;
+}
+
+.nav-btn1 {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.nav-btn2 {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.nav-btn2:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .nav a {
@@ -189,9 +231,27 @@ footer a {
   color: #000;
 }
 
-.rsvp:hover {
-  background-color: #000;
-  color: #fff;
-  width: 15%;
-  height: 2rem;
+.nav:hover {
+  background-color: #fff;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav,
+  .second-to-last {
+    display: none;
+  }
+
+  .section4 .when-where {
+    margin: 0;
+    column-gap: 15rem;
+  }
+
+  .when {
+    margin-top: 5rem;
+  }
+  
+  .where {
+    margin-bottom: 5rem;
+  }
 }
