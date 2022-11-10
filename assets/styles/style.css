@@ -48,7 +48,6 @@ body {
 .section4 img {
   width: 100%;
   border-radius: 5px;
-
   filter: grayscale(70%);
 }
 
@@ -57,7 +56,6 @@ body {
   border-radius: 4px;
   height: fit-content;
   width: fit-content;
-
   font-size: 1.3rem;
   background-color: #000;
   color: #fff;
@@ -179,7 +177,7 @@ footer a {
   background-color: #fff;
   margin: 0;
 }
- 
+
 .nav {
   background-color: #fff;
   opacity: 0.8;
@@ -250,7 +248,7 @@ footer a {
   .when {
     margin-top: 5rem;
   }
-  
+
   .where {
     margin-bottom: 5rem;
   }
