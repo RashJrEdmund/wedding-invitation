@@ -1,28 +1,35 @@
-# Wedding_Invitation
+# WEDDING_INVITATION
 
 ## AUTHOR
-    This project was completed by "RASH"
+**RASH**
 
 ## About
-   This project was a simple assignment given to test our still growing skills. it's about implement a wedding invitation page
+This project was a simple assignment given to test our still growing skills. it's about implement a beautiful wedding invitation page
 
 ## OPENNING THE PROGRAM
-    It is as simple as clicking on it's link, or searching this url on your browser "///"
+It is as simple as clicking on it's link, or searching this url on your browser "https://rashjredmund.github.io/wedding-invitation/"
 
 ## BUILT WITH
-    This page is basically built with just 
-        -html and 
-        -css for styling.
+This page is basically built with just
+* html and
+* css for styling.
 
 ### PREREQUISITES
-    You should already have a stable browser to use.
+* You should already have a stable browser to use.
+* Internet connection
+* and be familiar with github
 
 ## CLONE PROJECT
-    -to get a local copy of this on your machine, you'll need to clone this repository.
-    -clone the repository with
-    "////"
-    -all this is done using your Linux terminal or git-bash for windows users.
+* open your terminal
+* browse to where you want to clone the repository
+* type the and run this comand "git clone git@github.com:RashJrEdmund/wedding-invitation.git"
+* clone the repository with
+* edit it as you please
+* Note That: all this is done using your Linux terminal or git-bash for windows users.
 
 ## CONTRIBUTION
-    Contributions, issues, and feature requests are welcome!
-    Feel free to check the [issues page](link to issue page on github).
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/RashJrEdmund/wedding-invitation/issues).
+
+## License
+This project is [w3schoole](./LICENSE) licensed. This project was made by "RASH"
