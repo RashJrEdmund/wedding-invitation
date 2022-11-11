@@ -7,17 +7,17 @@
 This project was a simple assignment given to test our still growing skills. it's about implement a beautiful wedding invitation page
 
 ## OPENNING THE PROGRAM
-It is as simple as clicking on it's link, or searching this url on your browser "https://rashjredmund.github.io/wedding-invitation/"
+It is as simple as clicking on it's link, or searching this URL on your browser "https://rashjredmund.github.io/wedding-invitation/"
 
 ## BUILT WITH
 This page is basically built with just
-* html and
-* css for styling.
+* HTML and
+* CSS for styling.
 
 ### PREREQUISITES
 * You should already have a stable browser to use.
 * Internet connection
-* and be familiar with github
+* and be familiar with GitHub
 
 ## CLONE PROJECT
 * open your terminal
